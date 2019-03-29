@@ -12,6 +12,8 @@
       <div class="swiper-pagination"></div>
     </div>
     <types></types>
+    <miaosha></miaosha>
+    <router-view></router-view>
 </div>
 </template>
 
@@ -20,6 +22,7 @@ import Swiper from 'swiper'
 import "swiper/dist/css/swiper.css";
 import homeHeader from "./components/homeHeader"
 import types from "./components/types"
+import miaosha from "./components/miaosha"
 export default {
     data(){
         return {
@@ -49,7 +52,8 @@ export default {
     },
     components:{
         homeHeader,
-        types
+        types,
+        miaosha
     }
 }
 </script>

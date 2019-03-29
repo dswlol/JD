@@ -40,6 +40,9 @@ Vue.use(jsonp)
 import * as $http from "./request/axios"
 Vue.prototype.$http=$http;
 
+//其他网站  卷皮折 熊猫油瓶 
+import axios from "axios"
+Vue.prototype.$axios=axios;
 Vue.config.productionTip = false
 
 //导航守卫
