@@ -3,7 +3,7 @@
 		<div>
 			<Search/>
 		</div>
-		<div class="box">
+		<div>
 			<Clas/>
 		</div>
 	</div>
@@ -24,9 +24,5 @@ export default{
 </script>
 
 <style lang="scss" scoped>
-	.box{
-		display: flex;
-		width: 30%;
-		margin-bottom: 2rem;
-	}
+	
 </style>

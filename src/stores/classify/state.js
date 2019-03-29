@@ -1,4 +1,23 @@
 export default {
 	//分类数据
-	list:[]
+	list:[],
+	commodityReq:[
+		 "http://www.xiongmaoyouxuan.com/api/tab/11?start=0",
+		 "http://www.xiongmaoyouxuan.com/api/tab/2?start=0",
+	 	 "http://www.xiongmaoyouxuan.com/api/tab/5?start=0",
+	 	 "http://www.xiongmaoyouxuan.com/api/tab/3?start=0",
+	 	 "http://www.xiongmaoyouxuan.com/api/tab/4?start=0",
+	 	 "http://www.xiongmaoyouxuan.com/api/tab/13?start=0",
+	 	 "http://www.xiongmaoyouxuan.com/api/tab/19?start=0",
+	 	 "http://www.xiongmaoyouxuan.com/api/tab/10?start=0",
+	 	 "http://www.xiongmaoyouxuan.com/api/tab/16?start=0",
+	 	 "http://www.xiongmaoyouxuan.com/api/tab/24?start=0",
+	 	 "http://www.xiongmaoyouxuan.com/api/tab/14?start=0",
+	 	 "http://www.xiongmaoyouxuan.com/api/tab/15?start=0",
+	 	 "http://www.xiongmaoyouxuan.com/api/tab/6?start=0",
+	 	 "http://www.xiongmaoyouxuan.com/api/tab/12?start=0",
+	 	 "http://www.xiongmaoyouxuan.com/api/tab/17?start=0",
+	 	 "http://www.xiongmaoyouxuan.com/api/tab/7?start=0",
+	 	 "http://www.xiongmaoyouxuan.com/api/tab/11?start=0"
+	]
 }
