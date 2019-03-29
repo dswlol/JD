@@ -45,3 +45,8 @@ $axios.interceptors.response.use(resp=>{
 export const getPanda=()=>{
 	return $axios.get('/api/tab/1?start=0');
 }
+
+//classfiy请求
+export const getClass=()=>{
+	return $axios.get('/api/tabs?sa=');
+}

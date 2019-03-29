@@ -7,6 +7,8 @@ const PingTuan=()=>import("../views/PingTuan/PingTuan")
 const Cart=()=>import("../views/Cart/Cart")
 const Login=()=>import("../views/Login/Login")
 
+
+
 const routes = [
     {
     	path:"/",
